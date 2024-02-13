@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: tpc-ds
+    description: TPC-DS models any industry that must manage, sell and distribute products.
+    database:  strange-ratio-411606
+    schema: raw_tpcds_data
+    tables:
+      - name: customer
+        description: "customer Information"
